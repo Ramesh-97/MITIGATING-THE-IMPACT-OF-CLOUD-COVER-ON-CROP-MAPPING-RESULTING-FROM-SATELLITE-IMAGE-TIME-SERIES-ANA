@@ -1,0 +1,210 @@
+cff-version: 1.2.0
+message: "If you use this software or research, please cite it as below."
+authors:
+  - family-names: "Menghwar"
+    given-names: "Ramesh Kumar"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "University of Genoa"
+title: "Mitigating the Impact of Cloud Cover on Crop Mapping from Satellite Image Time Series Analysis"
+version: 1.0.0
+doi: 10.5281/zenodo.XXXXXXX
+date-released: 2025-03-18
+url: "https://github.com/yourusername/thesis-cloud-removal-crop-mapping"
+license: MIT
+keywords:
+  - remote sensing
+  - cloud removal
+  - crop mapping
+  - deep learning
+  - satellite imagery
+  - SITS
+  - FPAR
+  - agricultural monitoring
+  - SAR fusion
+  - CRLI
+repository-code: "https://github.com/yourusername/thesis-cloud-removal-crop-mapping"
+type: software
+abstract: >
+  A comprehensive investigation of cloud mitigation strategies for Satellite Image Time Series
+  (SITS), evaluating traditional statistical methods and advanced deep learning frameworks
+  for crop mapping applications. This repository contains the implementation of the CRLI
+  framework and comparative analysis of gap-filling techniques applied to FPAR vegetation
+  indices in Italian agricultural regions.
+thesis-type: "Master's Thesis"
+institution:
+  name: "University of Genoa"
+  department: "Department of Naval, Electrical, Electronic and Telecommunication Engineering (DITEN)"
+  country: "Italy"
+supervisors:
+  - family-names: "Moser"
+    given-names: "Gabriele"
+    affiliation: "University of Genoa"
+    role: "Supervisor"
+  - family-names: "Osa"
+    given-names: "Priscilla Indira"
+    affiliation: "University of Genoa"
+    role: "Co-Supervisor"
+references:
+  - type: article
+    authors:
+      - family-names: "Ma"
+        given-names: "Qianli"
+    title: "Learning Representations for Incomplete Time Series Clustering"
+    year: 2021
+    conference: "35th AAAI Conference on Artificial Intelligence"
+  - type: article
+    authors:
+      - family-names: "Pipia"
+        given-names: "Luca"
+    title: "Green LAI Mapping and Cloud Gap-Filling Using Gaussian Process Regression in Google Earth Engine"
+    year: 2021
+    journal: "Remote Sensing"
+    volume: 13
+    issue: 3
+```
+
+---
+
+## **File 5: .gitignore**
+```
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+.jupyter/
+*.nbconvert.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data (large files not tracked in git)
+data/raw/**/*.tif
+data/raw/**/*.hdf
+data/raw/**/*.nc
+data/processed/**/*.npy
+data/processed/**/*.h5
+data/processed/**/*.pkl
+*.geotiff
+*.hdf5
+
+# Model Checkpoints
+experiments/results/**/*.h5
+experiments/results/**/*.pth
+experiments/results/**/*.ckpt
+experiments/results/**/*.pb
+models/saved_models/
+*.weights
+
+# Logs and Outputs
+*.log
+experiments/results/**/*.csv
+experiments/results/**/*.json
+experiments/results/**/*.txt
+logs/
+outputs/
+runs/
+tensorboard/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# Documentation Build
+docs/_build/
+docs/_static/
+docs/_templates/
+site/
+
+# OS Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Environment Variables
+.env
+.env.local
+.envrc
+
+# C/C++ Extensions
+*.o
+*.so
+*.dylib
+*.dll
+
+# Compiled Python
+*.pyc
+*.pyo
+
+# Distribution
+*.tar.gz
+*.zip
+*.whl
+
+# Secrets (API keys, credentials)
+secrets/
+credentials/
+*.key
+*.pem
+*.crt
+
+# Large Result Files
+results/**/*.png
+results/**/*.jpg
+results/**/*.tiff
+figures/
+plots/
+
+# Backup Files
+*~
+*.backup
+*.old
