@@ -2,14 +2,13 @@ cff-version: 1.2.0
 message: "If you use this software or research, please cite it as below."
 authors:
   - family-names: "Menghwar"
-    given-names: "Ramesh Kumar"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+    given-names: "Engr Ramesh Kumar"
+    orcid: "https://orcid.org/0009-0007-7871-8441"
     affiliation: "University of Genoa"
 title: "Mitigating the Impact of Cloud Cover on Crop Mapping from Satellite Image Time Series Analysis"
 version: 1.0.0
-doi: 10.5281/zenodo.XXXXXXX
-date-released: 2025-03-18
-url: "https://github.com/yourusername/thesis-cloud-removal-crop-mapping"
+date-released: 2025-03-24
+url: "https://github.com/Ramesh-97/thesis-cloud-removal-crop-mapping"
 license: MIT
 keywords:
   - remote sensing
